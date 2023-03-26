@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        x:Class="AvaloniaApplication1.MainWindow"
+		Width="400" Height="400"
+        Title="AvaloniaApplication1">
+	<Grid RowDefinitions="*,auto" VerticalAlignment="Center" HorizontalAlignment="Center"> 
+		<ContentControl x:Name="Kostka" Width="250" Height="250" Grid.Row="0"/>
+		<Button x:Name="Przycisk" Width="100" Height="30" Content="Rzuć kostką" Grid.Row="1" HorizontalAlignment="Center"/>
+	</Grid>
+</Window>
